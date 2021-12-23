@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DrawCoordinates" representedClassName="DrawCoordinates" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="draw" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Draws" inverseName="coordinates" inverseEntity="Draws"/>
+    </entity>
+    <entity name="Draws" representedClassName="Draws" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="coordinates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DrawCoordinates" inverseName="draw" inverseEntity="DrawCoordinates"/>
+    </entity>
+    <entity name="Images" representedClassName="Images" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <relationship name="moment" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Moments" inverseName="images" inverseEntity="Moments"/>
+    </entity>
+    <entity name="Locations" representedClassName="Locations" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <relationship name="moment" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Moments" inverseName="locations" inverseEntity="Moments"/>
+    </entity>
+    <entity name="Moments" representedClassName="Moments" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Images" inverseName="moment" inverseEntity="Images"/>
+        <relationship name="locations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Locations" inverseName="moment" inverseEntity="Locations"/>
+    </entity>
+    <elements>
+        <element name="DrawCoordinates" positionX="-45" positionY="45" width="128" height="104"/>
+        <element name="Draws" positionX="-54" positionY="36" width="128" height="59"/>
+        <element name="Images" positionX="-36" positionY="9" width="128" height="74"/>
+        <element name="Locations" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="Moments" positionX="-54" positionY="-9" width="128" height="119"/>
+    </elements>
+</model>

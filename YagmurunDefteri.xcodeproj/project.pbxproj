@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94070DA4F23132A97AD7020A /* Pods_YagmurunDefteri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7380144BDE417AD536A51D /* Pods_YagmurunDefteri.framework */; };
+		A740D493276F904500FDFF99 /* Draws+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740D489276F904500FDFF99 /* Draws+CoreDataClass.swift */; };
+		A740D494276F904500FDFF99 /* Draws+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740D48A276F904500FDFF99 /* Draws+CoreDataProperties.swift */; };
+		A740D495276F904500FDFF99 /* Moments+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740D48B276F904500FDFF99 /* Moments+CoreDataClass.swift */; };
+		A740D496276F904500FDFF99 /* Moments+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740D48C276F904500FDFF99 /* Moments+CoreDataProperties.swift */; };
+		A740D497276F904500FDFF99 /* Locations+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740D48D276F904500FDFF99 /* Locations+CoreDataClass.swift */; };
+		A740D498276F904500FDFF99 /* Locations+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740D48E276F904500FDFF99 /* Locations+CoreDataProperties.swift */; };
+		A740D499276F904500FDFF99 /* DrawCoordinates+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740D48F276F904500FDFF99 /* DrawCoordinates+CoreDataClass.swift */; };
+		A740D49A276F904500FDFF99 /* DrawCoordinates+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740D490276F904500FDFF99 /* DrawCoordinates+CoreDataProperties.swift */; };
+		A740D49B276F904500FDFF99 /* Images+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740D491276F904500FDFF99 /* Images+CoreDataClass.swift */; };
+		A740D49C276F904500FDFF99 /* Images+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740D492276F904500FDFF99 /* Images+CoreDataProperties.swift */; };
+		A7597A1D2755773100A2EE86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7597A1C2755773100A2EE86 /* AppDelegate.swift */; };
+		A7597A1F2755773100A2EE86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7597A1E2755773100A2EE86 /* SceneDelegate.swift */; };
+		A7597A212755773100A2EE86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7597A202755773100A2EE86 /* ViewController.swift */; };
+		A7597A242755773100A2EE86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7597A222755773100A2EE86 /* Main.storyboard */; };
+		A7597A272755773100A2EE86 /* YagmurunDefteri.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7597A252755773100A2EE86 /* YagmurunDefteri.xcdatamodeld */; };
+		A7597A292755773300A2EE86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7597A282755773300A2EE86 /* Assets.xcassets */; };
+		A7597A2C2755773300A2EE86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7597A2A2755773300A2EE86 /* LaunchScreen.storyboard */; };
+		A7597A58275583E400A2EE86 /* EditMomentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7597A57275583E400A2EE86 /* EditMomentViewController.swift */; };
+		A7597A5A275587A800A2EE86 /* CreateMomentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7597A59275587A800A2EE86 /* CreateMomentViewController.swift */; };
+		A7597A5C275588AE00A2EE86 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7597A5B275588AE00A2EE86 /* LocationsViewController.swift */; };
+		A7597A5E2755895200A2EE86 /* MomentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7597A5D2755895200A2EE86 /* MomentDetailsViewController.swift */; };
+		A79056622755950300FD51EA /* GalleryFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79056612755950300FD51EA /* GalleryFlowLayout.swift */; };
+		A79056642755951A00FD51EA /* ThumbCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79056632755951A00FD51EA /* ThumbCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E7380144BDE417AD536A51D /* Pods_YagmurunDefteri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YagmurunDefteri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BBDC75DCEE87D21C506C681 /* Pods-YagmurunDefteri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YagmurunDefteri.release.xcconfig"; path = "Target Support Files/Pods-YagmurunDefteri/Pods-YagmurunDefteri.release.xcconfig"; sourceTree = "<group>"; };
+		A740D489276F904500FDFF99 /* Draws+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Draws+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		A740D48A276F904500FDFF99 /* Draws+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Draws+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		A740D48B276F904500FDFF99 /* Moments+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Moments+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		A740D48C276F904500FDFF99 /* Moments+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Moments+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		A740D48D276F904500FDFF99 /* Locations+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locations+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		A740D48E276F904500FDFF99 /* Locations+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locations+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		A740D48F276F904500FDFF99 /* DrawCoordinates+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DrawCoordinates+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		A740D490276F904500FDFF99 /* DrawCoordinates+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DrawCoordinates+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		A740D491276F904500FDFF99 /* Images+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Images+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		A740D492276F904500FDFF99 /* Images+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Images+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		A7597A192755773100A2EE86 /* YagmurunDefteri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YagmurunDefteri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7597A1C2755773100A2EE86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7597A1E2755773100A2EE86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A7597A202755773100A2EE86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7597A232755773100A2EE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7597A262755773100A2EE86 /* YagmurunDefteri.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YagmurunDefteri.xcdatamodel; sourceTree = "<group>"; };
+		A7597A282755773300A2EE86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7597A2B2755773300A2EE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7597A2D2755773300A2EE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7597A57275583E400A2EE86 /* EditMomentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMomentViewController.swift; sourceTree = "<group>"; };
+		A7597A59275587A800A2EE86 /* CreateMomentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMomentViewController.swift; sourceTree = "<group>"; };
+		A7597A5B275588AE00A2EE86 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		A7597A5D2755895200A2EE86 /* MomentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentDetailsViewController.swift; sourceTree = "<group>"; };
+		A79056612755950300FD51EA /* GalleryFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryFlowLayout.swift; sourceTree = "<group>"; };
+		A79056632755951A00FD51EA /* ThumbCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbCell.swift; sourceTree = "<group>"; };
+		B2DDD9A928FF63C44EF7875F /* Pods-YagmurunDefteri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YagmurunDefteri.debug.xcconfig"; path = "Target Support Files/Pods-YagmurunDefteri/Pods-YagmurunDefteri.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7597A162755773100A2EE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94070DA4F23132A97AD7020A /* Pods_YagmurunDefteri.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21AC132B86267C58BD2C1EFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2DDD9A928FF63C44EF7875F /* Pods-YagmurunDefteri.debug.xcconfig */,
+				9BBDC75DCEE87D21C506C681 /* Pods-YagmurunDefteri.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3925CB89C20174D2FBDB4973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E7380144BDE417AD536A51D /* Pods_YagmurunDefteri.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7597A102755773100A2EE86 = {
+			isa = PBXGroup;
+			children = (
+				A7597A1B2755773100A2EE86 /* YagmurunDefteri */,
+				A7597A1A2755773100A2EE86 /* Products */,
+				21AC132B86267C58BD2C1EFE /* Pods */,
+				3925CB89C20174D2FBDB4973 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7597A1A2755773100A2EE86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7597A192755773100A2EE86 /* YagmurunDefteri.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7597A1B2755773100A2EE86 /* YagmurunDefteri */ = {
+			isa = PBXGroup;
+			children = (
+				A740D489276F904500FDFF99 /* Draws+CoreDataClass.swift */,
+				A740D48A276F904500FDFF99 /* Draws+CoreDataProperties.swift */,
+				A740D48B276F904500FDFF99 /* Moments+CoreDataClass.swift */,
+				A740D48C276F904500FDFF99 /* Moments+CoreDataProperties.swift */,
+				A740D48D276F904500FDFF99 /* Locations+CoreDataClass.swift */,
+				A740D48E276F904500FDFF99 /* Locations+CoreDataProperties.swift */,
+				A740D48F276F904500FDFF99 /* DrawCoordinates+CoreDataClass.swift */,
+				A740D490276F904500FDFF99 /* DrawCoordinates+CoreDataProperties.swift */,
+				A740D491276F904500FDFF99 /* Images+CoreDataClass.swift */,
+				A740D492276F904500FDFF99 /* Images+CoreDataProperties.swift */,
+				A7597A1C2755773100A2EE86 /* AppDelegate.swift */,
+				A7597A1E2755773100A2EE86 /* SceneDelegate.swift */,
+				A7597A202755773100A2EE86 /* ViewController.swift */,
+				A7597A5D2755895200A2EE86 /* MomentDetailsViewController.swift */,
+				A7597A57275583E400A2EE86 /* EditMomentViewController.swift */,
+				A7597A59275587A800A2EE86 /* CreateMomentViewController.swift */,
+				A7597A5B275588AE00A2EE86 /* LocationsViewController.swift */,
+				A79056612755950300FD51EA /* GalleryFlowLayout.swift */,
+				A79056632755951A00FD51EA /* ThumbCell.swift */,
+				A7597A222755773100A2EE86 /* Main.storyboard */,
+				A7597A282755773300A2EE86 /* Assets.xcassets */,
+				A7597A2A2755773300A2EE86 /* LaunchScreen.storyboard */,
+				A7597A2D2755773300A2EE86 /* Info.plist */,
+				A7597A252755773100A2EE86 /* YagmurunDefteri.xcdatamodeld */,
+			);
+			path = YagmurunDefteri;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7597A182755773100A2EE86 /* YagmurunDefteri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7597A302755773300A2EE86 /* Build configuration list for PBXNativeTarget "YagmurunDefteri" */;
+			buildPhases = (
+				0D39B8B60686D7E8DD9F2BCB /* [CP] Check Pods Manifest.lock */,
+				A7597A152755773100A2EE86 /* Sources */,
+				A7597A162755773100A2EE86 /* Frameworks */,
+				A7597A172755773100A2EE86 /* Resources */,
+				606EBF1845C8D4D97A32F3CD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YagmurunDefteri;
+			productName = YagmurunDefteri;
+			productReference = A7597A192755773100A2EE86 /* YagmurunDefteri.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7597A112755773100A2EE86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A7597A182755773100A2EE86 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = A7597A142755773100A2EE86 /* Build configuration list for PBXProject "YagmurunDefteri" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7597A102755773100A2EE86;
+			productRefGroup = A7597A1A2755773100A2EE86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7597A182755773100A2EE86 /* YagmurunDefteri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7597A172755773100A2EE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7597A2C2755773300A2EE86 /* LaunchScreen.storyboard in Resources */,
+				A7597A292755773300A2EE86 /* Assets.xcassets in Resources */,
+				A7597A242755773100A2EE86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D39B8B60686D7E8DD9F2BCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YagmurunDefteri-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		606EBF1845C8D4D97A32F3CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YagmurunDefteri/Pods-YagmurunDefteri-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YagmurunDefteri/Pods-YagmurunDefteri-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YagmurunDefteri/Pods-YagmurunDefteri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7597A152755773100A2EE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79056622755950300FD51EA /* GalleryFlowLayout.swift in Sources */,
+				A740D495276F904500FDFF99 /* Moments+CoreDataClass.swift in Sources */,
+				A7597A5A275587A800A2EE86 /* CreateMomentViewController.swift in Sources */,
+				A740D499276F904500FDFF99 /* DrawCoordinates+CoreDataClass.swift in Sources */,
+				A740D493276F904500FDFF99 /* Draws+CoreDataClass.swift in Sources */,
+				A740D498276F904500FDFF99 /* Locations+CoreDataProperties.swift in Sources */,
+				A740D49B276F904500FDFF99 /* Images+CoreDataClass.swift in Sources */,
+				A740D49C276F904500FDFF99 /* Images+CoreDataProperties.swift in Sources */,
+				A7597A212755773100A2EE86 /* ViewController.swift in Sources */,
+				A7597A1D2755773100A2EE86 /* AppDelegate.swift in Sources */,
+				A740D494276F904500FDFF99 /* Draws+CoreDataProperties.swift in Sources */,
+				A7597A1F2755773100A2EE86 /* SceneDelegate.swift in Sources */,
+				A7597A5C275588AE00A2EE86 /* LocationsViewController.swift in Sources */,
+				A740D497276F904500FDFF99 /* Locations+CoreDataClass.swift in Sources */,
+				A79056642755951A00FD51EA /* ThumbCell.swift in Sources */,
+				A740D49A276F904500FDFF99 /* DrawCoordinates+CoreDataProperties.swift in Sources */,
+				A740D496276F904500FDFF99 /* Moments+CoreDataProperties.swift in Sources */,
+				A7597A58275583E400A2EE86 /* EditMomentViewController.swift in Sources */,
+				A7597A272755773100A2EE86 /* YagmurunDefteri.xcdatamodeld in Sources */,
+				A7597A5E2755895200A2EE86 /* MomentDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7597A222755773100A2EE86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7597A232755773100A2EE86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7597A2A2755773300A2EE86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7597A2B2755773300A2EE86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7597A2E2755773300A2EE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7597A2F2755773300A2EE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7597A312755773300A2EE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2DDD9A928FF63C44EF7875F /* Pods-YagmurunDefteri.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GX4VJDHRDS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YagmurunDefteri/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Yağmur'un Defteri";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Güzel anıları ölümsüzleştirmek için, kamera erişimi izniniz gerekiyor.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Giderek, güzelleştirdiğiniz yerleri kaydetmek için konum takibine izin vermelisiniz.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Giderek, güzelleştirdiğiniz yerleri kaydetmek için konum takibine izin vermelisiniz.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Güzel sesinizi duyurmak için, mikrofon erişim izniniz gerekiyor.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Güzel anıları ölümsüzleştirmek için, albüm erişimi izniniz gerekiyor.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mbatar.YagmurunDefteri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7597A322755773300A2EE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BBDC75DCEE87D21C506C681 /* Pods-YagmurunDefteri.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GX4VJDHRDS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YagmurunDefteri/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Yağmur'un Defteri";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Güzel anıları ölümsüzleştirmek için, kamera erişimi izniniz gerekiyor.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Giderek, güzelleştirdiğiniz yerleri kaydetmek için konum takibine izin vermelisiniz.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Giderek, güzelleştirdiğiniz yerleri kaydetmek için konum takibine izin vermelisiniz.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Güzel sesinizi duyurmak için, mikrofon erişim izniniz gerekiyor.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Güzel anıları ölümsüzleştirmek için, albüm erişimi izniniz gerekiyor.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mbatar.YagmurunDefteri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7597A142755773100A2EE86 /* Build configuration list for PBXProject "YagmurunDefteri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7597A2E2755773300A2EE86 /* Debug */,
+				A7597A2F2755773300A2EE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7597A302755773300A2EE86 /* Build configuration list for PBXNativeTarget "YagmurunDefteri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7597A312755773300A2EE86 /* Debug */,
+				A7597A322755773300A2EE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7597A252755773100A2EE86 /* YagmurunDefteri.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7597A262755773100A2EE86 /* YagmurunDefteri.xcdatamodel */,
+			);
+			currentVersion = A7597A262755773100A2EE86 /* YagmurunDefteri.xcdatamodel */;
+			path = YagmurunDefteri.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7597A112755773100A2EE86 /* Project object */;
+}
